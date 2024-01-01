@@ -13,7 +13,7 @@ public class LinkedHashSetDisc
 		
 		
   LinkedHashSet<String> lhs=new LinkedHashSet<String>();
-	//it is class which comes from java.util pckage and store the element in unique
+	//it is class which comes from java.util package and store the element in unique
 		
 		
 		lhs.add("Mumbai");

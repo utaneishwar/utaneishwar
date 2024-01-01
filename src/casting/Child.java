@@ -25,14 +25,15 @@ public class Child extends Parent
 	   
 	    
 	     p1.marry();      // marry method from child class because its overridden 
+	                       // run time object will decided which method get executed in overrididng concept
 	     
 	// ---------------------------	
 	     
 	     Parent p2 = new Parent();
 	     
-//	       Child c2 =(Child)p2;   // it is not valid we cannot convert parent class into child class
+	//       Child c2 =(Child)p2;   // it is not valid we cannot convert parent class into child class
 //	      
-//	  //       c2.home();        // it will give ClassCastException because
+  //          c2.home();        // it will give ClassCastException because
 //	                            // ParentClass cannot allow Child class property .
      //      
 	  //--------------------------   
